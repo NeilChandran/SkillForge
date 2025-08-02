@@ -1,0 +1,9 @@
+<img src="logo.png" alt="SkillForge Logo" style="height: 60px;">
+// helpers.js
+
+function capitalize(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+// Example usage (in script.js):
+// skill = capitalize(skill);
